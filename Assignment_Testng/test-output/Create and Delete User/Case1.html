@@ -1,0 +1,424 @@
+<html>
+<head>
+<title>TestNG:  Case1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Case1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>69/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Apr 24 23:31:32 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>321 seconds (321541 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer.Minimise()'><b>Minimise</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer@4d465b11</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutClose.LanchBrowser()'><b>LanchBrowser</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutClose</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutClose@3c73951</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer.ClickTask()'><b>ClickTask</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer@4d465b11</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer.Costmer()'><b>Costmer</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer</td>
+<td></td>
+<td>17</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer@4d465b11</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser.ClickUser()'><b>ClickUser</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser@383bfa16</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject.Minimise()'><b>Minimise</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject@5562c41e</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer.navigate()'><b>navigate</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer@53fdffa1</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser.userModify()'><b>userModify</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser</td>
+<td></td>
+<td>16</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser@383bfa16</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask.CreateTask()'><b>CreateTask</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask@32ee6fee</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutClose.CloseApplication()'><b>CloseApplication</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutClose</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutClose@3c73951</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser.login()'><b>login</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser@383bfa16</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser.fillUser()'><b>fillUser</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser@383bfa16</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject.LanchBrowser()'><b>LanchBrowser</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject@5562c41e</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject.Createprj()'><b>Createprj</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject</td>
+<td></td>
+<td>10</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject@5562c41e</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser.logout()'><b>logout</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser@383bfa16</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser.closeapplication()'><b>closeapplication</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser@71def8f8</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser.userdelete()'><b>userdelete</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser</td>
+<td></td>
+<td>14</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser@383bfa16</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser.closeapplication()'><b>closeapplication</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser@383bfa16</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject.ClickTask()'><b>ClickTask</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject@5562c41e</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer.ClickTask()'><b>ClickTask</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer@53fdffa1</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer.closeapplication()'><b>closeapplication</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer@4d465b11</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer.LanchBrowser()'><b>LanchBrowser</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer@4d465b11</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask.closeapplication()'><b>closeapplication</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask@32ee6fee</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask.Minimise()'><b>Minimise</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask@32ee6fee</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser.AddUser()'><b>AddUser</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser@71def8f8</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser.ClickUser()'><b>ClickUser</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser@71def8f8</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser.navigate()'><b>navigate</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser@383bfa16</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser.Minimise()'><b>Minimise</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser@383bfa16</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer.fillCoustomer()'><b>fillCoustomer</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer@53fdffa1</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject.login()'><b>login</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject@5562c41e</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser.Navigate()'><b>Navigate</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser@71def8f8</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer.ModifydeleteCustomer()'><b>ModifydeleteCustomer</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer</td>
+<td></td>
+<td>25</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer@53fdffa1</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask.DeleteCustomerandProjectTask()'><b>DeleteCustomerandProjectTask</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask@32ee6fee</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer.LanchBrowser()'><b>LanchBrowser</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer@53fdffa1</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject.logout()'><b>logout</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject@5562c41e</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutClose.Navigate()'><b>Navigate</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutClose</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutClose@3c73951</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser.login()'><b>login</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser@71def8f8</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer.navigate()'><b>navigate</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer@4d465b11</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer.AddCustomer()'><b>AddCustomer</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer@4d465b11</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask.Createprj()'><b>Createprj</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask</td>
+<td></td>
+<td>10</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask@32ee6fee</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser.logout()'><b>logout</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser@71def8f8</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask.ClickTask()'><b>ClickTask</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask@32ee6fee</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser@71def8f8</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer.Minimise()'><b>Minimise</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer@53fdffa1</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject.DeleteCustomerandProject()'><b>DeleteCustomerandProject</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject</td>
+<td></td>
+<td>22</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject@5562c41e</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser.fillUser()'><b>fillUser</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser@71def8f8</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer.logout()'><b>logout</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer@4d465b11</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask.navigate()'><b>navigate</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask@32ee6fee</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject.AddCustomer()'><b>AddCustomer</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject@5562c41e</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser.AddUser()'><b>AddUser</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser@383bfa16</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject.closeapplication()'><b>closeapplication</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject@5562c41e</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask.LanchBrowser()'><b>LanchBrowser</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask@32ee6fee</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer.fillCoustomer()'><b>fillCoustomer</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer@4d465b11</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutClose.loginLogout()'><b>loginLogout</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutClose</td>
+<td></td>
+<td>8</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutClose@3c73951</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer.closeapplication()'><b>closeapplication</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer@53fdffa1</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject.fillCoustomer()'><b>fillCoustomer</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject@5562c41e</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask.AddCustomer()'><b>AddCustomer</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask@32ee6fee</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer.login()'><b>login</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer@53fdffa1</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask.login()'><b>login</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask@32ee6fee</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject.navigate()'><b>navigate</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject@5562c41e</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask.fillCoustomer()'><b>fillCoustomer</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask@32ee6fee</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer.logout()'><b>logout</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer@53fdffa1</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject.Modifyprj()'><b>Modifyprj</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject@5562c41e</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask.logout()'><b>logout</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask@32ee6fee</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer.login()'><b>login</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer@4d465b11</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer.AddCustomer()'><b>AddCustomer</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer@53fdffa1</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser.LanchBrowser()'><b>LanchBrowser</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser@383bfa16</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser.userdelete()'><b>userdelete</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser</td>
+<td></td>
+<td>14</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser@71def8f8</td></tr>
+<tr>
+<td title='com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser.Minimise()'><b>Minimise</b><br>Test class: com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser@71def8f8</td></tr>
+</table><p>
+</body>
+</html>

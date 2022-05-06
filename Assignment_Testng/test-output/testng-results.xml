@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-06T11:37:37 IST" name="Default suite" finished-at="2022-05-06T11:37:52 IST" duration-ms="15308">
+    <groups>
+    </groups>
+    <test started-at="2022-05-06T11:37:37 IST" name="Default test" finished-at="2022-05-06T11:37:52 IST" duration-ms="15308">
+      <class name="com.sgtesting.Assignments.Testng.LoginLogoutClose">
+        <test-method signature="LanchBrowser()[pri:0, instance:com.sgtesting.Assignments.Testng.LoginLogoutClose@4a7f959b]" started-at="2022-05-06T11:37:37 IST" name="LanchBrowser" finished-at="2022-05-06T11:37:39 IST" duration-ms="1937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LanchBrowser -->
+        <test-method signature="Navigate()[pri:1, instance:com.sgtesting.Assignments.Testng.LoginLogoutClose@4a7f959b]" started-at="2022-05-06T11:37:39 IST" name="Navigate" finished-at="2022-05-06T11:37:44 IST" duration-ms="4608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigate -->
+        <test-method signature="loginLogout()[pri:2, instance:com.sgtesting.Assignments.Testng.LoginLogoutClose@4a7f959b]" started-at="2022-05-06T11:37:44 IST" name="loginLogout" finished-at="2022-05-06T11:37:52 IST" duration-ms="8580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogout -->
+        <test-method signature="CloseApplication()[pri:3, instance:com.sgtesting.Assignments.Testng.LoginLogoutClose@4a7f959b]" started-at="2022-05-06T11:37:52 IST" name="CloseApplication" finished-at="2022-05-06T11:37:52 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- com.sgtesting.Assignments.Testng.LoginLogoutClose -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

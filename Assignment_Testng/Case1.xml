@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Create And Delete User">
+	<test name="Case1">
+		<classes>
+			<class name="com.sgtesting.Assignments.Testng.LoginLogoutClose"></class>
+			<class name="com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser"></class>
+			<class name="com.sgtesting.Assignments.Testng.LoginLogoutCreateModifeyDeleteUser"></class>
+			<class name="com.sgtesting.Assignments.Testng.LoginLogoutCreateCustomer"></class>
+			<class name="com.sgtesting.Assignments.Testng.LoginLogoutCreateDeleteUser"></class>
+			<class name="com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyCustomer"></class>
+			<class name="com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProject"></class>
+			<class name="com.sgtesting.Assignments.Testng.LoginLogoutCreateModifyDeleteCustomerProjectTask"></class>
+		</classes>
+	</test>
+</suite>
